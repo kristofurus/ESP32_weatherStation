@@ -249,11 +249,11 @@ void loop() {
     if(status_bme280) {
       httpRequestData += "\"bme280_temp\":" + String(t_bme280) + ",";
       httpRequestData += "\"bme280_hum\":" + String(h_bme280) + ",";
-      httpRequestData += "\"bme280_preas\":" + String(p_bme280) + ",";
+      httpRequestData += "\"bme280_pres\":" + String(p_bme280) + ",";
     } else {
       httpRequestData += "\"bme280_temp\":" + String("null") + ",";
       httpRequestData += "\"bme280_hum\":" + String("null") + ",";
-      httpRequestData += "\"bme280_preas\":" + String("null") + ",";
+      httpRequestData += "\"bme280_pres\":" + String("null") + ",";
     }
 
     if(status_aht10) {
