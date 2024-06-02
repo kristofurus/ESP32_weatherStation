@@ -43,12 +43,12 @@
 // Communication pins
 // GPIO22 - SCL   (I2C)
 // GPIO21 - SDA   (I2C)
-// GPIO5  - One wire bus
-// GPIO4 - DHT11
-// GPIO32 - DHT22
-#define ONE_WIRE_BUS 5
-#define DHT11_PIN 4
-#define DHT22_PIN 32
+// GPIO27 - One wire bus
+// GPIO26 - DHT11
+// GPIO25 - DHT22
+#define ONE_WIRE_BUS 27
+#define DHT11_PIN 26
+#define DHT22_PIN 25
 
 // ESP32 status pins
 // GPIO2  - LED   (SEND STATUS)
